@@ -304,4 +304,5 @@ function setRealVh() {
   document.documentElement.style.setProperty('--real-vh', `${window.innerHeight}px`);
 }
 setRealVh();
+
 window.addEventListener('resize', setRealVh);
